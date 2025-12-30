@@ -4,7 +4,7 @@ const projects = [
   {
     title: 'Django Web Application',
     description: 'Developed a Django-based web application with MVC architecture, user authentication, form validation, and role-based access. Integrated MySQL database using Django ORM and built CRUD functionality with admin panel support.',
-    tags: ['Django', 'Python', 'MySQL','MVC'],
+    tags: ['Django', 'Python', 'MySQL'],
     link: '#'
   },
   {
