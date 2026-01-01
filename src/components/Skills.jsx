@@ -3,6 +3,7 @@ import React from 'react';
 const skills = [
   { name: 'Python', level: 'Advanced' },
   { name: 'Django', level: 'Advanced' },
+  { name: 'Flask', level: 'Intermediate'},
   { name: 'React.js', level: 'Intermediate' },
   { name: 'JavaScript', level: 'Intermediate' },
   { name: 'MySQL', level: 'Intermediate' },
@@ -10,6 +11,7 @@ const skills = [
   { name: 'Bootstrap', level: 'Advanced' },
   { name: 'REST APIs', level: 'Intermediate' },
   { name: 'Git', level: 'Intermediate' },
+ 
 ];
 
 const Skills = () => {

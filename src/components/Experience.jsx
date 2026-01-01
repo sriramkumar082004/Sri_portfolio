@@ -30,7 +30,7 @@ const Experience = () => {
                             </li>
                             <li className="flex items-start">
                                 <span className="mr-2 text-cyan-400">•</span>
-                                Built responsive frontend interfaces using HTML, CSS, Bootstrap, and React.js.
+                                Built responsive frontend interfaces using HTML, CSS, Bootstrap, Flask and React.js.
                             </li>
                             <li className="flex items-start">
                                 <span className="mr-2 text-cyan-400">•</span>
