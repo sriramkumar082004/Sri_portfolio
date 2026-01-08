@@ -2,9 +2,9 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Django Web Application',
-    description: 'Developed a Django-based web application with MVC architecture, user authentication, form validation, and role-based access. Integrated MySQL database using Django ORM and built CRUD functionality with admin panel support.',
-    tags: ['Django', 'Flask','Python', 'MySQL','MVC'],
+    title: 'CRUD Application – FastAPI & React.js (Full Stack)',
+    description: 'Developed RESTful APIs using FastAPI for CRUD operations. Implemented API integration with React.js frontend. Designed relational database schemas using PostgreSQL. Implemented secure API communication and data validation. Tested endpoints using Postman. Deployed backend and frontend separately with API connectivity.',
+    tags: ['FastAPI', 'React.js', 'PostgreSQL', 'Postman', 'REST API'],
     link: '#'
   },
   {

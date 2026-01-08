@@ -12,7 +12,7 @@ const Hero = () => {
             Python Full Stack Developer
           </p>
           <p className="text-lg text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
-            Passionate about building scalable web applications using Python, Django, Flask and React.js.
+            Passionate about building scalable web applications using Python, Django, Flask , FastAPI , Postman and React.js.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a 

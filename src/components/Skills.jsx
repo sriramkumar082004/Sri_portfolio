@@ -7,9 +7,11 @@ const skills = [
   { name: 'React.js', level: 'Intermediate' },
   { name: 'JavaScript', level: 'Intermediate' },
   { name: 'MySQL', level: 'Intermediate' },
+  { name: 'Postgresql', level: 'Intermediate'},
   { name: 'HTML5 & CSS3', level: 'Advanced' },
   { name: 'Bootstrap', level: 'Advanced' },
   { name: 'REST APIs', level: 'Intermediate' },
+  { name: 'Postman', level: 'Intermediate' },
   { name: 'Git', level: 'Intermediate' },
  
 ];
