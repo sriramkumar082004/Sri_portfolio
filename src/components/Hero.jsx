@@ -17,9 +17,6 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-xl md:text-2xl font-medium text-cyan-400 mb-4 tracking-wide">
-              Hello, World!
-            </h2>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-outfit">
               I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 drop-shadow-sm">Sriram K</span>
             </h1>
