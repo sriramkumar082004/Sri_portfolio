@@ -30,7 +30,7 @@ const Skills = () => {
   );
 
   return (
-    <section id="skills" className="py-20 relative overflow-hidden min-h-screen flex flex-col justify-center">
+    <section id="skills" className="py-10 relative overflow-hidden min-h-[50vh] flex flex-col justify-center">
       {/* Background Decorative */}
       <div className="absolute top-0 left-0 w-full h-full bg-slate-950 -z-20"></div>
       <div className="absolute top-[20%] right-[-10%] w-[500px] h-[500px] bg-violet-600/10 rounded-full blur-[120px] -z-10"></div>
@@ -41,7 +41,7 @@ const Skills = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-8"
         >
             <h2 className="text-3xl md:text-5xl font-bold font-outfit mb-4">
             Technical <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500">Stack</span>

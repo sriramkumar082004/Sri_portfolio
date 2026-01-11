@@ -18,13 +18,13 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 text-white relative overflow-hidden">
+    <section id="experience" className="py-10 text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-5xl font-bold text-center mb-16 font-outfit"
+            className="text-3xl md:text-5xl font-bold text-center mb-10 font-outfit"
         >
           My <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500">Experience</span>
         </motion.h2>
@@ -40,7 +40,7 @@ const Experience = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.2 }}
-                    className={`relative mb-12 md:mb-24 flex flex-col md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} items-center`}
+                    className={`relative mb-12 flex flex-col md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} items-center`}
                 >
                     {/* Dot */}
                     <div className="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-slate-900 border-2 border-cyan-400 rounded-full z-10 shadow-[0_0_10px_rgba(34,211,238,0.5)]"></div>

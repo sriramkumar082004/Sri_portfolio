@@ -10,13 +10,13 @@ const Contact = () => {
     ];
 
     return (
-        <section id="contact" className="py-20 relative overflow-hidden">
+        <section id="contact" className="py-10 relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.h2 
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-3xl md:text-5xl font-bold text-center mb-16 font-outfit"
+                    className="text-3xl md:text-5xl font-bold text-center mb-10 font-outfit"
                 >
                     Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500">Touch</span>
                 </motion.h2>
