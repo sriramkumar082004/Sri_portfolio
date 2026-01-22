@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaPython, FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaDatabase } from 'react-icons/fa';
-import { SiDjango, SiFlask, SiJavascript, SiMysql, SiPostgresql, SiPostman, SiTailwindcss } from 'react-icons/si';
+import { FaPython, FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaGitAlt, FaDatabase, FaLock, FaServer } from 'react-icons/fa';
+import { SiDjango, SiFlask, SiJavascript, SiMysql, SiPostgresql, SiPostman, SiTailwindcss, SiFastapi, SiSwagger } from 'react-icons/si';
 
 const skills = [
   { name: 'Python', category: 'Backend', icon: FaPython, color: 'text-yellow-400' },
   { name: 'Django', category: 'Backend', icon: SiDjango, color: 'text-green-600' },
+  { name: 'FastAPI', category: 'Backend', icon: SiFastapi, color: 'text-teal-400' },
   { name: 'Flask', category: 'Backend', icon: SiFlask, color: 'text-slate-200' },
+  { name: 'DRF', category: 'Backend', icon: FaServer, color: 'text-red-400' },
   { name: 'PostgreSQL', category: 'Database', icon: SiPostgresql, color: 'text-blue-400' },
   { name: 'MySQL', category: 'Database', icon: SiMysql, color: 'text-blue-500' },
   { name: 'React.js', category: 'Frontend', icon: FaReact, color: 'text-cyan-400' },
@@ -16,6 +18,8 @@ const skills = [
   { name: 'Bootstrap', category: 'Frontend', icon: FaBootstrap, color: 'text-purple-600' },
   { name: 'Tailwind', category: 'Frontend', icon: SiTailwindcss, color: 'text-cyan-400' },
   { name: 'REST APIs', category: 'Backend', icon: FaDatabase, color: 'text-green-400' },
+  { name: 'JWT Auth', category: 'Backend', icon: FaLock, color: 'text-yellow-500' },
+  { name: 'Swagger', category: 'Tools', icon: SiSwagger, color: 'text-green-500' },
   { name: 'Postman', category: 'Tools', icon: SiPostman, color: 'text-orange-500' },
   { name: 'Git', category: 'Tools', icon: FaGitAlt, color: 'text-red-500' },
 ];

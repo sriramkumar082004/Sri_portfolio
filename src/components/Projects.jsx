@@ -5,20 +5,29 @@ const projects = [
   {
     title: 'CRUD Application',
     subtitle: 'FastAPI & React.js',
-    description: 'Developed RESTful APIs using FastAPI. Implemented secure API communication, PostgreSQL database schemas, and frontend integration.',
-    tags: ['FastAPI', 'React', 'PostgreSQL'],
+    description: 'Developed RESTful APIs using FastAPI for CRUD operations. Implemented API integration with React.js frontend, secure API communication, and PostgreSQL database schemas.',
+    tags: ['FastAPI', 'React.js', 'PostgreSQL', 'Swagger'],
     link: '#',
     color: 'from-cyan-500 to-blue-500',
     size: 'col-span-1 md:col-span-2'
   },
   {
-    title: 'Portfolio Website',
-    subtitle: 'React & Tailwind',
-    description: 'Designed a premium responsive portfolio with glassmorphism and animations.',
-    tags: ['React', 'Tailwind', 'Framer Motion'],
+    title: 'Student Information Query System',
+    subtitle: 'RAG-Based AI Project',
+    description: 'Built a RAG system using PostgreSQL, FAISS, and Phi-3 LLM via Ollama. Reduced hallucination by limiting LLM input to retrieved context for accurate student data queries.',
+    tags: ['RAG', 'PostgreSQL', 'FAISS', 'Ollama', 'Phi-3'],
     link: '#',
     color: 'from-violet-500 to-purple-500',
-    size: 'col-span-1'
+    size: 'col-span-1 md:col-span-1'
+  },
+  {
+    title: 'Personal Portfolio Website',
+    subtitle: 'React.js & Tailwind',
+    description: 'Designed and developed a responsive personal portfolio website focused on clean UI design, responsiveness, and usability.',
+    tags: ['React.js', 'HTML5', 'CSS3', 'Tailwind'],
+    link: '#',
+    color: 'from-emerald-400 to-cyan-500',
+    size: 'col-span-1 md:col-span-3'
   }
 ];
 

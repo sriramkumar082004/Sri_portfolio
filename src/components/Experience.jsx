@@ -3,15 +3,15 @@ import { motion } from 'framer-motion';
 
 const experiences = [
     {
-        role: 'Python Developer Trainee',
+        role: 'Python Full Stack Developer Course and Trainee',
         company: 'Besant Technology, Bangalore',
-        period: 'Internship',
+        period: 'Internship / Training',
         description: [
-            'Completed intensive training in Python Full Stack Development.',
-            'Gained hands-on experience with Django framework and backend logic.',
-            'Worked on database integration using MySQL.',
-            'Built responsive frontend interfaces using HTML, CSS, Bootstrap, Flask and React.js.',
-            'Practiced REST API development and best coding standards.'
+            'Hands-on training in Python Full Stack Development.',
+            'Built backend applications using Django, DRF, Flask, and FastAPI.',
+            'Worked with PostgreSQL and MySQL databases.',
+            'Practiced REST API development, testing, and debugging.',
+            'Followed coding standards and basic software development practices.'
         ]
     }
 ];

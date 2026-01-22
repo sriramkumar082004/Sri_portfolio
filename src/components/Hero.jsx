@@ -18,7 +18,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-outfit">
-              I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 drop-shadow-sm">Sriram K</span>
+              I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-violet-600 drop-shadow-sm">Sriram Kumar</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-400 mb-8 max-w-lg mx-auto md:mx-0 font-light">
               Python Full Stack Developer building <span className="text-slate-200 font-normal">scalable</span> & <span className="text-slate-200 font-normal">premium</span> web experiences.
