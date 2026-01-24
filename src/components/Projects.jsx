@@ -12,9 +12,9 @@ const projects = [
     size: 'col-span-1 md:col-span-2'
   },
   {
-    title: 'Student Information Query System',
+    title: 'Electric Vehicle Population Data Analysis',
     subtitle: 'RAG-Based AI Project',
-    description: 'Built a RAG system using PostgreSQL, FAISS, and Phi-3 LLM via Ollama. Reduced hallucination by limiting LLM input to retrieved context for accurate student data queries.',
+    description: 'Built a RAG system using PostgreSQL, FAISS, and Phi-3 LLM via Ollama. Implemented semantic search for EV data queries with reduced hallucination through context-limited responses.',
     tags: ['RAG', 'PostgreSQL', 'FAISS', 'Ollama', 'Phi-3'],
     link: '#',
     color: 'from-violet-500 to-purple-500',
