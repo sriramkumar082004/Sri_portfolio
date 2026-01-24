@@ -14,8 +14,8 @@ const projects = [
   {
     title: 'Electric Vehicle Population Data Analysis',
     subtitle: 'RAG-Based AI Project',
-    description: 'Built a RAG system using PostgreSQL, FAISS, and Phi-3 LLM via Ollama. Implemented semantic search for EV data queries with reduced hallucination through context-limited responses.',
-    tags: ['RAG', 'PostgreSQL', 'FAISS', 'Ollama', 'Phi-3'],
+    description: 'Built a RAG system using Redis, FAISS, and Phi-3 LLM via Ollama. Implemented semantic search for EV data queries with reduced hallucination through context-limited responses.',
+    tags: ['RAG', 'Redis', 'FAISS', 'Ollama', 'Phi-3'],
     link: '#',
     color: 'from-violet-500 to-purple-500',
     size: 'col-span-1 md:col-span-1'
@@ -83,7 +83,7 @@ const Projects = () => {
                </div>
                
                {/* Decorative Circle */}
-               <div className={`absolute -bottom-20 -right-20 w-64 h-64 rounded-full bg-gradient-to-tl ${project.color} opacity-20 blur-3xl group-hover:opacity-40 transition-opacity duration-500`}></div>
+               <div className={`hidden md:block absolute -bottom-20 -right-20 w-64 h-64 rounded-full bg-gradient-to-tl ${project.color} opacity-20 blur-3xl group-hover:opacity-40 transition-opacity duration-500`}></div>
             </motion.div>
           ))}
         </div>
